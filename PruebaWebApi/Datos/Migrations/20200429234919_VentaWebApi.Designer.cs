@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Datos.Migrations
 {
     [DbContext(typeof(ModelContext))]
-    [Migration("20200429222437_WebApiMigain")]
-    partial class WebApiMigain
+    [Migration("20200429234919_VentaWebApi")]
+    partial class VentaWebApi
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

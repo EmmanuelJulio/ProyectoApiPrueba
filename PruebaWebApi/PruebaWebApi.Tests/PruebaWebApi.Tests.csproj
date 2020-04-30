@@ -109,6 +109,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{0E226B83-8AF3-456B-8F73-118D16F23ECB}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PruebaWebApi\PruebaWebApi.csproj">
       <Project>{1CB96BA2-86F2-43D7-8C37-FD13E67063E3}</Project>
       <Name>PruebaWebApi</Name>

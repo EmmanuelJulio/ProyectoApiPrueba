@@ -7,6 +7,8 @@ using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PruebaWebApi;
 using PruebaWebApi.Controllers;
+using Datos.Clases;
+
 
 namespace PruebaWebApi.Tests.Controllers
 {
@@ -20,7 +22,7 @@ namespace PruebaWebApi.Tests.Controllers
             ValuesController controller = new ValuesController();
 
             // Actuar
-            IEnumerable<string> result = controller.Get();
+            IEnumerable<Producto> result = controller.Get();
 
             // Declarar
             Assert.IsNotNull(result);

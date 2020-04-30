@@ -2,7 +2,7 @@
 
 namespace Datos.Migrations
 {
-    public partial class WebApiMigain : Migration
+    public partial class VentaWebApi : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

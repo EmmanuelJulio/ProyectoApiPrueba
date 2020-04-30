@@ -9,7 +9,7 @@ namespace Datos
         public DbSet<Producto> productos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=PCGRANDE\DESARROLLO;Database=VentaWebApi;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-7H9VS1J;Database=VentaWebApi;Trusted_Connection=True;");
         }
 
     }
